@@ -113,13 +113,13 @@ print("G.D theta = {} , G,D cost = {}".format(theta_op,cost_op))
 
 
 
-'''
-plt.xlabel('age_nor')
-plt.ylabel('charge_nor')
-plt.plot(X[:,0],Y,'o')
-plt.plot(X[:,0],hypothesis,'o')
-plt.show()
-'''
+#test
+X,Y = Pre_proc(data_for_test)
+
+hypothesis = X.dot(theta_op)
+RMS = np.sum(np.square(hypothesis-Y))/len(Y)
+print("RMS in test  = {}".format(RMS))
+
 
 
 
