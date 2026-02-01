@@ -45,8 +45,7 @@ A comprehensive implementation of **Multiple Linear Regression** using **NumPy**
 ---
 
 ## 📂 Project Structure
-- `linear_regression.py`: Core script containing preprocessing, analytic solver, and gradient descent logic.
-- `insurance.csv`: Dataset for training and testing.
+- `main.py`: Core script containing preprocessing, analytic solver, and gradient descent logic.
 
 ---
 
